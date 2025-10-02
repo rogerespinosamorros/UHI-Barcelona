@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Byte-compiled / cache
+*.log
+*.pot
+*.pyc
+*.pkl
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+jupyter_notebook_config.py
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- Data / Outputs ---
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.h5
+*.parquet
+*.feather
+*.gz
+*.zip
+
+# Large binary / temp
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- MLflow / Experiments (si lo usas) ---
+mlruns/
+mlartifacts/
