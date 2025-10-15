@@ -54,6 +54,6 @@ datasets/
 .DS_Store
 Thumbs.db
 
-# --- MLflow / Experiments (si lo usas) ---
+# --- MLflow / Experiments (if needed) ---
 mlruns/
 mlartifacts/

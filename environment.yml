@@ -1,0 +1,23 @@
+name: tfg-uhi
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - rtree
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - contextily
+  - folium
+  - ipykernel
+  - pip
+  - pip:
+      - pre-commit
+      - black
+      - isort
